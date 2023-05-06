@@ -1,0 +1,24 @@
+#titleB{color: #E0470A; font-size: 60px; font-family: Century Gothic;}
+
+#divrelog{
+	text-align: center; 
+	margin-top: 10px;
+}
+
+.panel{
+	background: #F2F6F5;
+	color: #E0470A;	
+	width: 720px;
+ 	height: 470px;
+ 	margin: auto;
+	text-align: center;
+	float: center;
+	display: block;
+}
+h1{
+	color: #E0470A;
+	float: center;
+	margin-top: 80px;
+}
+
+

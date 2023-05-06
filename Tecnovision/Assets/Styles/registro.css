@@ -1,0 +1,137 @@
+*{font-family: Century Gothic;}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+}
+
+
+
+body {
+  position: relative;
+  margin: 0;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #0B5345;
+  text-align: left;
+  background: #0B5345;
+
+}
+.Register-Box{
+	padding: 10px;
+	margin-top: 60px;
+
+	
+   
+}
+
+.Register-Box form{
+ 
+	border-radius: 0.25rem;
+	margin: auto;
+	width: 350px;
+	background: #fff;
+	padding: 20px;
+	box-sizing: border-box;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.Register-Box h4{
+
+	text-align: center;
+	font-size: 20px;
+	margin: 0 0 10px;
+	padding: 0;
+	color:#0B5345;
+	font-weight: normal;
+	
+}
+
+.Register-Box .form-control{
+    
+	padding: 10px 0;
+	margin-bottom: 20px;
+}
+
+
+.Register-Box .form-control{
+	width: 100%;
+	font-size: 14px;
+	color: #0B5345;
+	box-sizing: border-box;
+	box-shadow: none;
+	border:none;
+	outline: none;
+	border-bottom: 1px solid #999;
+}
+
+.Register-Box .btn-enviar[type="submit"]{
+	width: 100%;
+	border: none;
+	border-bottom: none;
+	cursor: pointer;
+	background: #0B5345;
+	margin-bottom: 0;
+	text-transform: uppercase; /*Texto en Mayus*/
+	padding: 8px;
+	color: #fff;
+	font-family: titillium web;
+    border-radius: 4px;
+    
+}
+.Register-Box .btn-enviar[type="submit"]:hover{
+    background: #0B5345;
+    box-shadow: 0px 1px 3px rgba(0,0,0,.6);	
+    transition: 1s;
+    color: #0B5345;
+    background: #fff;
+}
+
+.Register-Box form .form-input{
+	position: relative;
+}
+.Register-Box form .form-input .label-box{
+	font-size: 14px;
+	position: absolute;
+	top: 10px;
+	left: 0;
+	color: #999;
+	transition: .5s;
+	pointer-events: none;
+}
+.Register-Box .form-control:focus ~ .label-box,
+.Register-Box .form-control:valid ~ .label-box
+{
+
+   top: -10px;
+   left: 0;
+   color: #0B5345;
+	
+   font-size: 14px;
+   
+}
+.Register-Box .form-control:focus,
+.Register-Box .form-control:valid{
+	
+  border-bottom: 2px solid #0B5345;
+}
+.Register-Box .btn-enviar[type="submit"]:focus,
+.Register-Box .btn-enviar[type="submit"]:valid{
+	
+  border-bottom: none;
+}
+
+@media screen and (max-width: 768px) {
+	.Register-Box form{
+		width: 100%;
+		box-shadow: none;
+	}
+	
+}
+
+#registro{
+	color: #0B5345;
+	font-size: 12px;
+}
